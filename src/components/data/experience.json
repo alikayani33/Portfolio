@@ -1,0 +1,41 @@
+[
+    {
+      "id": 1,
+      "role": " Junior Web Developer",
+      "organisation": "Alfalah System LTD",
+      "startDate": "June, 2020",
+      "endDate": "Dec, 2020",
+      "location": "Pakistan",
+      "experiences": [
+        "Worked on Responsive user Interface",
+        "Using HTML,CSS,JAVASCRIPT"
+      ],
+      "imageSrc": "company/google.png"
+    },
+    {
+      "id": 2,
+      "role": "Web Developer",
+      "organisation": "Rozee.Pk",
+      "startDate": "Jan,2021",
+      "endDate": "oct, 2021",
+      "location": "Islamabad,Pakistan",
+      "experiences": [
+        "Intership as junior Developer",
+        "Handling mini Projects and problem Solving"
+      ],
+      "imageSrc": "company/microsoft.png"
+    },
+    {
+      "id": 3,
+      "role": "Web Developer",
+      "organisation": "Tech solution",
+      "startDate": "Dec,2021",
+      "endDate": "May,2023",
+      "location": "Jhelum,Pakistan",
+      "experiences": [
+        "Worked with React js",
+        "Creating small apps using hooks and Tailwind"
+      ],
+      "imageSrc": "company/netflix.png"
+    }
+  ]

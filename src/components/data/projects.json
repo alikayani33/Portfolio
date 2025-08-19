@@ -1,0 +1,34 @@
+[
+    {
+      "key": 1,
+      "title": "React AI GPT",
+      "imageSrc": "https://campaignsoftheworld.com/wp-content/uploads/2023/03/Unlocking-the-Potential-of-ChatGPT.jpg",
+      "description": "Created an AI using Gemini and Tailwind",
+      "demo": "https://react-ai-gpt.vercel.app/",
+      "source": "https://github.com/alikayani33/react-AI-GPT.git"
+    },
+    {
+      "key": 2,
+      "title": "Weather App",
+      "imageSrc": "https://play-lh.googleusercontent.com/0zpmRoziWcr2EmYR4P_HQqJLf21Eh8o8v5ZX4L2f3vsbuvq8xKNEUULyqbm3hnqllnk=w526-h296-rw",
+      "description": "Created a Weather App using Weather API on React using Jsx and CSS ",
+      "demo": "https://www.example.com",
+      "source": "https://github.com/alikayani33/weatherapp.git"
+    },
+    {
+      "key": 3,
+      "title": "Book Shop",
+      "imageSrc": "https://s.yimg.com/ny/api/res/1.2/XvgNPaNYWG.xgwBQhoB3Lg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03MjA-/https://s.yimg.com/os/creatr-uploaded-images/2025-01/67ec4d50-dd26-11ef-9bdf-1d04fd6867d4",
+      "description": "A Backend Project using Node,Express js and MongoDB,In which yo can Create,Read,Update and Delete Book by using Author ID and login",
+      "demo": "https://www.example.com",
+      "source": "https://github.com/alikayani33/Books-Shop.git"
+    },
+    {
+      "key": 4,
+      "title": "E-Plant shop",
+      "imageSrc": "https://res.cloudinary.com/simpleview/image/upload/v1674080712/clients/oakland/amy_thompson_photography_684A1607_9ab6111e-d6c2-4b29-a5e5-2788e84cb561.jpg",
+      "description": "This is a project made with Node js and React using API.",
+      "demo": "https://www.example.com",
+      "source": "https://github.com/alikayani33/E-plant.git"
+    }
+  ]

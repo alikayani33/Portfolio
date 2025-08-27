@@ -1,17 +1,31 @@
-/* Root container styling */
+/* === Reset & Base Styling === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  overflow-x: hidden;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Logo styles */
+/* === Logo Styling === */
 .logo {
   height: 6em;
-  padding: 1.5em;
   max-width: 100%;
+  padding: 1.5em;
   transition: filter 300ms;
   will-change: filter;
 }
@@ -24,7 +38,6 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-/* Logo animation */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -40,27 +53,69 @@
   }
 }
 
-/* Card styling */
+/* === Home Section === */
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.home .left,
+.home .right {
+  flex: 1 1 45%;
+  min-width: 300px;
+}
+
+.home .left h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.home .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+/* === Image Section === */
+.img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* === Card Styling === */
 .card {
   padding: 2em;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   margin: 1em auto;
   max-width: 600px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Helper text */
+/* === Helper Text === */
 .read-the-docs {
   color: #888;
   font-size: 0.9em;
   margin-top: 1rem;
 }
 
-/* Responsive styling */
+/* === Responsive Design === */
 @media (max-width: 768px) {
-  #root {
-    padding: 1rem;
+  .home {
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+  }
+
+  .home .left,
+  .home .right {
+    flex: 1 1 100%;
+    text-align: center;
   }
 
   .logo {
@@ -71,11 +126,6 @@
   .card {
     padding: 1em;
     width: 100%;
-    box-sizing: border-box;
-  }
-
-  .read-the-docs {
-    font-size: 0.85em;
   }
 }
 
@@ -88,11 +138,13 @@
   .card {
     margin: 0.5em;
   }
-}
 
-/* Prevent horizontal scrolling */
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+  .home .btn {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .home .left h1 {
+    font-size: 1.5rem;
+  }
 }

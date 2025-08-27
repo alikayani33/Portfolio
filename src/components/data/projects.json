@@ -30,5 +30,13 @@
       "description": "This is a project made with Node js and React using API.",
       "demo": "https://www.example.com",
       "source": "https://github.com/alikayani33/E-plant.git"
+    },
+      {
+      "key": 5,
+      "title": "Sifra 2.0",
+      "imageSrc": "ai.png",
+      "description": "Speak to get Response,A Gemini API with modern feature using React and Tailwind CSS",
+      "demo": "https://sifra2-0-ak.vercel.app/",
+      "source": "https://github.com/alikayani33/Sifra2.0.git"
     }
   ]

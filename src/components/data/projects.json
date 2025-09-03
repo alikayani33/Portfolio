@@ -10,7 +10,7 @@
     {
       "key": 2,
       "title": "Weather App",
-      "imageSrc": "https://play-lh.googleusercontent.com/0zpmRoziWcr2EmYR4P_HQqJLf21Eh8o8v5ZX4L2f3vsbuvq8xKNEUULyqbm3hnqllnk=w526-h296-rw",
+      "imageSrc": "https://www.figma.com/community/resource/ccd60066-86ea-45f6-810b-9a4734419528/thumbnail",
       "description": "Created a Weather App using Weather API on React using Jsx and CSS ",
       "demo": "https://www.example.com",
       "source": "https://github.com/alikayani33/weatherapp.git"
@@ -38,5 +38,13 @@
       "description": "Speak to get Response,A Gemini API with modern feature using React and Tailwind CSS",
       "demo": "https://sifra2-0-ak.vercel.app/",
       "source": "https://github.com/alikayani33/Sifra2.0.git"
+    },
+     {
+      "key": 6,
+      "title": "Video Calling App",
+      "imageSrc": "https://kumospace.mo.cloudinary.net/https://content.kumospace.com/hubfs/iStock-1295837655.jpg?tx=w_responsive:fallback-max-width_1226;fallback-max-width-mobile_720",
+      "description": "Front end web app for video calling using React integrated with ZegoCloud API.",
+      "demo": "https://video-calling-app-mu-blush.vercel.app/",
+      "source": "https://github.com/alikayani33/Video_calling_app.git"
     }
   ]

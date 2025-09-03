@@ -182,3 +182,109 @@ border: 1px solid yellow;
   background-color: var(--bg-color);
   box-shadow: var(--box-shadow);
 }
+
+/* ---------- Base tweaks (keep desktop look) ---------- */
+
+/* Let containers be fluid, cap with max-width instead of fixed width */
+.home .left {
+  width: 100%;
+  max-width: 620px;
+}
+
+.ex, .skills {
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ex-items {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+/* Stop the hero image from being permanently shifted left */
+.home .right .img img {
+  /* keep your size for desktop */
+  height: 250px;
+  width: 250px;
+  left: 0;               /* remove the desktop negative shift; we'll handle with media if needed */
+}
+
+/* ---------- Tablet and down ---------- */
+@media (max-width: 992px) {
+  .home {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    height: auto;
+    padding-block: 2rem;
+  }
+
+  .home .left {
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .home .right .img img {
+    height: 220px;
+    width: 220px;
+  }
+
+  .skills .items {
+    gap: 20px;
+  }
+
+  /* two columns for skill cards on tablets */
+  .skills .items .item {
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+}
+
+/* ---------- Phones ---------- */
+@media (max-width: 576px) {
+  /* stack hero nicely, prevent overlap */
+  .home {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home .left {
+    padding: 20px;
+  }
+
+  .home .right .img {
+    position: static;
+  }
+
+  .home .right .img img {
+    position: static !important;
+    transform: none !important;
+    height: auto;
+    width: min(70vw, 260px);   /* cap image size on phones */
+    display: block;
+    margin: 0 auto;
+    box-shadow: none;          /* kill the massive glow on phones */
+    animation: none;           /* stop animated glow on phones */
+  }
+
+  /* make experience + skills fully fluid */
+  .ex-items {
+    padding: 20px;
+  }
+
+  /* one column for skill cards on phones */
+  .skills .items .item {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+/* Optional: if you still want a subtle glow on desktop only */
+@media (min-width: 577px) {
+  .home .right .img img {
+    /* soft glow so it doesn't bleed into other sections */
+    box-shadow: 0 0 60px 30px rgba(0, 255, 90, 0.25);
+  }
+}
